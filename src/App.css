@@ -1,0 +1,43 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.title{
+  font-size: 1.5pc;
+}
+
+.nav-container {
+  width: 200px;
+  background-color: black;
+  padding: 20px; 
+}
+
+.nav-container nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-container nav ul li {
+  margin-bottom: 10px;
+}
+
+
+.card-row{
+  display: flex;
+  width: 100%;
+  height: 25%;
+  color: black;
+  align-items: center;
+}
+
+.card-row header {
+  flex: 1;
+  padding: 50px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: wheat;
+  margin: 10px;
+}
